@@ -1,7 +1,7 @@
 ---
-company_name: "Global Expert Auto Transport"
-phone: "(555) 123-4567"
-email: "info@globalexpertautotransport.com"
+company_name: "Abex Transport"
+phone: "+1 (713) 344-4668"
+email: "Bon999@yahoo.com"
 address: "123 Transportation Way, Suite 100, Shipping City, SC 12345"
 hours:
   weekdays: "8:00 AM - 8:00 PM EST"

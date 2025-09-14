@@ -134,7 +134,7 @@ export default function QuoteForm() {
               <Input
                 id="phone"
                 type="tel"
-                placeholder="(555) 123-4567"
+                placeholder="+1 (713) 344-4668"
                 value={formData.phone}
                 onChange={(e) => handleInputChange('phone', e.target.value)}
                 data-testid="input-phone"
@@ -147,7 +147,7 @@ export default function QuoteForm() {
               <Input
                 id="email"
                 type="email"
-                placeholder="your@email.com"
+                placeholder="Bon999@yahoo.com"
                 value={formData.email}
                 onChange={(e) => handleInputChange('email', e.target.value)}
                 data-testid="input-email"

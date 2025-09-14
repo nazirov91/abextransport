@@ -74,11 +74,11 @@ export default function Footer() {
             <div className="space-y-2">
               <div className="flex items-center gap-3 text-sm">
                 <Phone className="h-4 w-4 text-primary" />
-                <span className="text-foreground">(818) 431-0808</span>
+                <span className="text-foreground">+1 (713) 344-4668</span>
               </div>
               <div className="flex items-center gap-3 text-sm">
                 <Mail className="h-4 w-4 text-primary" />
-                <span className="text-foreground">chris@marser.us</span>
+                <span className="text-foreground">Bon999@yahoo.com</span>
               </div>
               <div className="flex items-center gap-3 text-sm">
                 <MapPin className="h-4 w-4 text-primary" />

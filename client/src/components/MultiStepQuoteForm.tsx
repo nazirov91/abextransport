@@ -600,7 +600,7 @@ export default function MultiStepQuoteForm() {
                 <Input
                   id="email"
                   type="email"
-                  placeholder="your@email.com"
+                  placeholder="Bon999@yahoo.com"
                   value={stepThreeData.email}
                   onChange={(e) =>
                     setStepThreeData((prev) => ({
@@ -618,7 +618,7 @@ export default function MultiStepQuoteForm() {
                 <Input
                   id="phone"
                   type="tel"
-                  placeholder="(555) 123-4567"
+                  placeholder="+1 (713) 344-4668"
                   value={stepThreeData.phone}
                   onChange={(e) =>
                     setStepThreeData((prev) => ({

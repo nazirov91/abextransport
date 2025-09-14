@@ -30,7 +30,7 @@ export function GlobalsProvider({ children }: { children: React.ReactNode }) {
     return { ...rows[0] } as GlobalsMap;
   }, [rows]);
 
-  const businessName = globals.business_name?.trim() || "Global Expert Shipping";
+  const businessName = globals.business_name?.trim() || "Abex Transport";
 
   const value: GlobalsContextValue = {
     globals,

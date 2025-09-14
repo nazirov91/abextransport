@@ -40,13 +40,13 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Call Us Now",
-    details: "(818) 431-0808",
+    details: "+1 (713) 344-4668",
     description: "Speak with a transport specialist",
   },
   {
     icon: Mail,
     title: "Email Us",
-    details: "chris@marser.us",
+    details: "Bon999@yahoo.com",
     description: "Get a response within 1 hour",
   },
   {
@@ -155,7 +155,7 @@ export default function ContactSection() {
                     onClick={() => console.log("Call now clicked")}
                   >
                     <Phone className="h-4 w-4 mr-2" />
-                    Call (818) 431-0808
+                    Call +1 (713) 344-4668
                   </Button>
                   <Button
                     variant="outline"
@@ -201,7 +201,7 @@ export default function ContactSection() {
                     <Input
                       id="contact-phone"
                       type="tel"
-                      placeholder="(555) 123-4567"
+                      placeholder="+1 (713) 344-4668"
                       value={formData.phone}
                       onChange={(e) =>
                         handleInputChange("phone", e.target.value)
@@ -217,7 +217,7 @@ export default function ContactSection() {
                   <Input
                     id="contact-email"
                     type="email"
-                    placeholder="your@email.com"
+                    placeholder="Bon999@yahoo.com"
                     value={formData.email}
                     onChange={(e) => handleInputChange("email", e.target.value)}
                     data-testid="input-contact-email"
